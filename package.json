@@ -1,7 +1,8 @@
 {
-  "name": "template",
+  "name": "root",
   "version": "0.0.0",
-  "description": "Monorepo template",
+  "description": "Monorepo",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/srmcguirt/renovate.git"
