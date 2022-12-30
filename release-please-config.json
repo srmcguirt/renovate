@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "separate-pull-requests": false,
   "packages": {
-    "packages/core": {
-      "component": "@stijnvanhulle/template-core",
+    "packages/config": {
+      "component": "@srmcguirt/renovate-config",
       "changelog-path": "CHANGELOG.md",
       "release-type": "node",
       "bump-minor-pre-major": false,
@@ -11,22 +11,13 @@
       "draft": false,
       "prerelease": false
     },
-    "packages/demo": {
-      "component": "@stijnvanhulle/template-demo",
-      "changelog-path": "CHANGELOG.md",
-      "release-type": "node",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
-      "draft": false,
-      "prerelease": false
-    }
   },
   "plugins": [
     {
       "type": "linked-versions",
-      "group-name": "@stijnvanhulle",
+      "group-name": "@srmcguirt",
       "components": [
-        "@stijnvanhulle/template-core", "@stijnvanhulle/template-demo"
+        "@stijnvanhulle/template-core"
       ]
     }
   ]
