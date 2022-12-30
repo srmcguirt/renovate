@@ -1,14 +1,14 @@
 {
-  "name": "@stijnvanhulle/template-core",
-  "version": "2.0.0",
-  "description": "Core",
+  "name": "@srmcguirt/renovate-config",
+  "version": "0.0.0",
+  "description": "Config",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stijnvanhulle/template.git",
-    "directory": "packages/core"
+    "url": "git://github.com/srmcguirt/renovate.git",
+    "directory": "packages/config"
   },
   "license": "MIT",
-  "author": "Stijn Van Hulle <stijn@stijnvanhulle.be",
+  "author": "Shane McGuirt<srmcguirt@gmail.com>",
   "sideEffects": false,
   "main": "dist/index.mjs",
   "unpkg": "dist/index.global.js",
