@@ -1,4 +1,4 @@
-# Template
+# Renovate Monorepo
 
 Use of:
 - Nx
