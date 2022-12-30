@@ -8,11 +8,6 @@
   },
   "license": "MIT",
   "author": "Shane McGuirt<srmcguirt@gmail.com>",
-  "workspaces": {
-    "packages": [
-      "packages/**"
-    ]
-  },
   "scripts": {
     "build": "turbo run build",
     "graph": "nx graph",
