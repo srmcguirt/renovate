@@ -1,14 +1,13 @@
 {
   "name": "template",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.0.0",
   "description": "Monorepo template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stijnvanhulle/template.git"
+    "url": "https://github.com/srmcguirt/renovate.git"
   },
   "license": "MIT",
-  "author": "Stijn Van Hulle <stijn@stijnvanhulle.be",
+  "author": "Shane McGuirt<srmcguirt@gmail.com>",
   "workspaces": {
     "packages": [
       "packages/**"
@@ -16,7 +15,7 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "graph": "nx graph ",
+    "graph": "nx graph",
     "lint": "eslint packages/**/*.ts",
     "lint-fix": "eslint packages/**/*.ts --quiet --fix",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
