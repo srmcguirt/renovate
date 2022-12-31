@@ -10,15 +10,6 @@
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false
-    },
-  },
-  "plugins": [
-    {
-      "type": "linked-versions",
-      "group-name": "@srmcguirt",
-      "components": [
-        "@stijnvanhulle/template-core"
-      ]
     }
-  ]
+  }
 }
