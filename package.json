@@ -1,7 +1,7 @@
 {
   "name": "@srmcguirt/renovate-config",
   "version": "0.0.0",
-  "description": "Config",
+  "description": "Renovate config",
   "type": "module",
   "repository": "srmcguirt/renovate-config",
   "license": "MIT",
@@ -12,25 +12,18 @@
     "default.json"
   ],
   "scripts": {
-    "lint": "eslint . --ext .js,.ts,.json",
-    "lint:fix": "eslint . --ext .js,.ts,.json --fix"
+    "lint": "ESLINT_USE_FLAT_CONFIG=true npx eslint .",
+    "lint:fix": "ESLINT_USE_FLAT_CONFIG=true npx eslint . --fix",
+    "release": "pnpm test && standard-version && git push --follow-tags && pnpm publish",
+    "test": "pnpm lint"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.2.0",
-    "@commitlint/config-conventional": "^17.2.0",
-    "@vitest/coverage-c8": "^0.26.2",
     "eslint": "^8.30.0",
     "eslint-plugin-jsonc": "^2.5.0",
-    "husky": "^8.0.2",
     "jsonc-eslint-parser": "^2.1.0",
     "npm-check-updates": "^16.4.1",
     "renovate": "^34.69.0",
-    "standard-version": "^9.5.0",
-    "unbuild": "^1.0.2",
-    "vitest": "^0.26.2"
-  },
-  "engines": {
-    "node": ">=14.18"
+    "standard-version": "^9.5.0"
   },
   "packageManager": "pnpm@7.20.0"
 }
