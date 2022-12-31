@@ -1,6 +1,6 @@
 {
   "name": "@srmcguirt/renovate-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "Renovate config",
   "type": "module",
