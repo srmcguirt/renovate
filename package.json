@@ -26,5 +26,9 @@
     "renovate": "^34.69.0",
     "standard-version": "^9.5.0"
   },
-  "packageManager": "pnpm@7.20.0"
+  "packageManager": "pnpm@7.20.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
