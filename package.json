@@ -23,7 +23,7 @@
     "eslint-plugin-jsonc": "^2.5.0",
     "jsonc-eslint-parser": "^2.1.0",
     "npm-check-updates": "^16.4.1",
-    "renovate": "^34.69.0",
+    "renovate": "^35.110.1",
     "standard-version": "^9.5.0"
   },
   "packageManager": "pnpm@7.20.0",
